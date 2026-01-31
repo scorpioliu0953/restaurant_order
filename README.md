@@ -2,8 +2,6 @@
 
 一個使用 React + Supabase 建構的即時餐廳點餐系統。
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scorpioliu0953/restaurant_order)
-
 ## 功能
 
 - **顧客端**：掃描 QR Code 點餐
