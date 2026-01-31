@@ -1,0 +1,13 @@
+[build]
+  base = "client"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[template.environment]
+  VITE_SUPABASE_URL = "Your Supabase project URL"
+  VITE_SUPABASE_ANON_KEY = "Your Supabase anon key"
