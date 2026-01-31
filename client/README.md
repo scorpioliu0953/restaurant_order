@@ -2,9 +2,30 @@
 
 一個使用 React + Supabase 建構的即時餐廳點餐系統，支援顧客掃碼點餐、廚房即時接單、後台管理等功能。
 
+## 事前準備
+
+部署此專案前，請先註冊以下三個免費服務帳號：
+
+| 服務 | 用途 | 註冊連結 |
+|------|------|----------|
+| **GitHub** | 程式碼託管 | [github.com](https://github.com) |
+| **Supabase** | 資料庫 + 即時功能 + 用戶認證 | [supabase.com](https://supabase.com) |
+| **Netlify** | 網站託管 | [netlify.com](https://netlify.com) |
+
+> 以上服務皆提供免費方案，足夠小型餐廳使用。
+
+---
+
+## 一鍵部署
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scorpioliu0953/restaurant_order)
 
-> **一鍵部署說明**：點擊上方按鈕後，Netlify 會自動 Fork 此專案到你的 GitHub，並引導你完成部署。部署時需要填入你自己的 Supabase 環境變數。
+**步驟：**
+1. 點擊上方按鈕
+2. 登入 Netlify（會要求連接 GitHub）
+3. Netlify 會自動 Fork 此專案到你的 GitHub
+4. 填入你的 Supabase 環境變數（見下方說明）
+5. 點擊 Deploy 完成部署
 
 ## 功能特色
 
